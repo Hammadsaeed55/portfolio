@@ -23,9 +23,12 @@ const Contact = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         axios.post("http://localhost:8000/api/user/create", user)
+        // axios.post("https://portfolio-qhwi.onrender.com/api/user/create", user)
             .then((res) => {
-                toast.success("Message sent successfully!");
-                console.log(res.data)
+                if(res){
+                    toast.success("Message sent successfully!");
+                }
+                // console.log(res.data)
                 setUser({
                     name: "",
                     email: "",
