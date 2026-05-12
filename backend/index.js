@@ -11,7 +11,7 @@ connectDB()
 const app = express()
 
 app.use(cors({
-    origin:"http://localhost:5173",
+    origin:"https://portfolio-frontend-ezvp.onrender.com",
     credentials:true
 }))
 
