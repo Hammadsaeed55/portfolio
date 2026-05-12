@@ -1,11 +1,9 @@
-import webDevCer from "../assets/web Development certificate_page-0001.jpg"
 export default function Certificates() {
   const certificates = [
     {
       title: "Web Development Certificate",
       issuer: "The Website Maker",
-      image:
-      {webDevCer},
+      image: "/src/assets/web Development certificate_page-0001.jpg",
       link: "https://github.com/Hammadsaeed55/certificates/blob/main/web%20Development%20certificate.pdf",
     },
     {
