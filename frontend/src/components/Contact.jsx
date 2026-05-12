@@ -42,6 +42,12 @@ const Contact = () => {
             }).catch(() => {
                 setLoading(false)
                 toast.error("Failed to send message. Please try again");
+                 setUser({
+                    name: "",
+                    email: "",
+                    subject: "",
+                    message: "",
+                })
             })
     }
 
