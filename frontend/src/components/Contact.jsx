@@ -26,7 +26,7 @@ const Contact = () => {
         e.preventDefault();
         setLoading(true)
         // axios.post("http://localhost:8000/api/user/create", user)
-        axios.post("http://localhost:8000/api/user/create", user)
+        axios.post("https://portfolio-backend-li4l.onrender.com/api/user/create", user)
             .then((res) => {
                 if(res){
                     toast.success("Message sent successfully!");
