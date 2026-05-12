@@ -8,6 +8,7 @@ const Navbar = () => {
     { name: "About", href: "#about" },
      { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
+    { name: "Certificates", href: "#certificates" },
     { name: "Resume", href: "#resume" },
     { name: "Contact", href: "#contact" },
   ];
@@ -26,7 +27,7 @@ const Navbar = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-lg font-bold hover:text-yellow-400 transition-colors duration-300"
+                className="text-lg  hover:text-yellow-400 transition-colors duration-300"
               >
                 {link.name}
               </a>

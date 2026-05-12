@@ -81,9 +81,9 @@ const About = () => {
 
               {activeTab === "certifications" && (
                 <ul className="list-disc list-inside text-gray-300 space-y-1">
-                  <li>Workshop Completion Certificate Organized By SOFTPRO INDIA</li>
+                  <li>Full Stack Developer Workshop Completion Certificate Organized By SOFTPRO INDIA</li>
                   <li>Python programming training certificate at Teerthanker Mahaveer University</li>
-                  <li>Brain Manthon Certificate for participating in 1st round at Teerthanker Mahaveer University</li>
+                  <li>Web Development Internship Completion Certificate By The website makers</li>
                 </ul>
               )}
 

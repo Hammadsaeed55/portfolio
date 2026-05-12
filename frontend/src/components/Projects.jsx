@@ -8,18 +8,19 @@ const projects = [
     live: "https://foodiefrenzy.netlify.app",
     github: "https://github.com/Hammadsaeed55/food-ordering-website",
   },
+   {
+    title: "CHATLIFY CHAT-APP",
+    description: "Built a real-time chat application using the MERN Stack, featuring secure JWT authentication, live messaging with Socket.IO, image uploads via Cloudinary, and responsive UI with Tailwind CSS.",
+    live: "https://chat-app-7u8x.onrender.com",
+    github: "https://github.com/Hammadsaeed55/chat-app",
+  },
   {
     title: "ECOMMERCE WEBSITE",
     description: "Technologies Used: MERN Stack, Firebase Developed a MERN‑based e‑commerce website with secure login/signup and Google authentication via Firebase. Added an admin panel for product management and built a shopping cart to add, view, and update item quantities.",
     live: "",
     github: "https://github.com/Hammadsaeed55/Mern-Ecommerce-website",
   },
-  {
-    title: "TODO APP",
-    description: "Technologies Used: ReactJS Built a responsive ToDo app with features to add, delete, and manage tasks. Implemented task completion functionality and designed an interactive UI for seamless use across devices.",
-    live: "https://dailydeeds.netlify.app/",
-    github: "https://github.com/Hammadsaeed55/To-Do-app",
-  },
+
 ];
 
 const Projects = () => {

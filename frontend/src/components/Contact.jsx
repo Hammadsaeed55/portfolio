@@ -5,6 +5,8 @@ import { toast } from 'react-toastify';
 
 const Contact = () => {
 
+    let [loading, setLoading] = useState(false)
+
     const [user, setUser] = useState({
         name: "",
         email: "",
@@ -22,8 +24,9 @@ const Contact = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        setLoading(true)
+        // axios.post("http://localhost:8000/api/user/create", user)
         axios.post("http://localhost:8000/api/user/create", user)
-        // axios.post("https://portfolio-qhwi.onrender.com/api/user/create", user)
             .then((res) => {
                 if(res){
                     toast.success("Message sent successfully!");
@@ -35,7 +38,9 @@ const Contact = () => {
                     subject: "",
                     message: "",
                 })
+                setLoading(false)
             }).catch(() => {
+                setLoading(false)
                 toast.error("Failed to send message. Please try again");
             })
     }
@@ -106,7 +111,7 @@ const Contact = () => {
                         className="px-6 py-2 bg-yellow-400 text-gray-900 font-bold rounded-md shadow-md 
                  transform hover:scale-105 transition duration-300"
                     >
-                        Send Message
+                        {loading ? "Sending..." : "Send Message"}
                     </button>
                 </div>
             </form>

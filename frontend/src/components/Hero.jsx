@@ -1,3 +1,75 @@
+// import React from "react";
+// import { MdKeyboardDoubleArrowDown } from "react-icons/md";
+
+// const Hero = () => {
+  
+//   const scrollToAbout = () => {
+//     const aboutSection = document.getElementById("about");
+//     if (aboutSection) {
+//       aboutSection.scrollIntoView({ behavior: "smooth" });
+//     }
+//   };
+
+//   return (
+//     <section
+//       className="h-screen w-full flex items-center justify-center bg-gradient-to-r from-black via-gray-900 to-gray-800 text-center scroll-smooth"
+//       id="hero"
+//     >
+//       <div className="px-4">
+//         <h1 className="text-2xl md:text-4xl font-bold text-white ">
+//           Hello,
+//         </h1>
+
+//         <h1 className="text-4xl md:text-6xl font-bold text-yellow-300 animate-pulse">
+//           I'm Hammad Saeed
+//         </h1>
+//         <p className="mt-4 text-lg md:text-2xl text-gray-200">
+//           I'm a Full Stack Web Developer
+//         </p>
+
+//         {/* Buttons Section */}
+//         <div className="mt-6 flex flex-col md:flex-row gap-4 justify-center">
+//           <a
+//             href="https://www.linkedin.com/in/hammad-saeed-666252244"
+//             target="_blank"
+//             rel="noopener noreferrer"
+//             className="border-2 border-yellow-400 text-white px-6 py-2 rounded-lg font-semibold hover:bg-yellow-400 hover:text-black transition duration-300 transform hover:scale-105"
+//           >
+//             LinkedIn
+//           </a>
+
+//           <a
+//             href="https://github.com/Hammadsaeed55"
+//             target="_blank"
+//             rel="noopener noreferrer"
+//             className="border-2 border-yellow-400 text-white px-6 py-2 rounded-lg font-semibold hover:bg-yellow-400 hover:text-black transition duration-300 transform hover:scale-105"
+//           >
+//             GitHub
+//           </a>
+//         </div>
+
+//        {/* down buttom */}
+//         <div className="mt-10 flex justify-center">
+//           <button
+//             onClick={scrollToAbout}
+//             className="w-14 h-14 flex items-center justify-center border-2 border-yellow-400 
+//                        text-yellow-400 text-3xl font-extrabold rounded-full shadow-lg 
+//                        transition-all duration-300 ease-in-out 
+//                        hover:bg-yellow-400 hover:text-black  animate-bounce cursor-pointer"
+//           >
+//             <MdKeyboardDoubleArrowDown />
+//           </button>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default Hero;
+
+
+
+
 import React from "react";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
@@ -16,19 +88,32 @@ const Hero = () => {
       id="hero"
     >
       <div className="px-4">
+
+        {/* Welcome Text */}
+        <p className="text-yellow-400 uppercase tracking-[3px] text-sm md:text-base mb-4 font-semibold">
+          Welcome To My Portfolio
+        </p>
+
         <h1 className="text-2xl md:text-4xl font-bold text-white ">
           Hello,
         </h1>
 
         <h1 className="text-4xl md:text-6xl font-bold text-yellow-300 animate-pulse">
-          I'm Hammad Saeed
+          I'<span className="text-[white]">m</span> Hammad Saeed
         </h1>
-        <p className="mt-4 text-lg md:text-2xl text-gray-200">
-          I'm a Full Stack Web Developer
+
+        <p className="mt-4 text-lg md:text-2xl text-gray-200 font-semibold">
+          Full Stack Web Developer
+        </p>
+
+        {/* Description */}
+        <p className="mt-4 max-w-2xl mx-auto text-gray-400 text-sm md:text-lg leading-relaxed">
+          MERN Stack Developer passionate about building responsive,
+          scalable, and user-friendly web applications.
         </p>
 
         {/* Buttons Section */}
-        <div className="mt-6 flex flex-col md:flex-row gap-4 justify-center">
+        <div className="mt-6 flex flex-row gap-4 justify-center flex-wrap">
           <a
             href="https://www.linkedin.com/in/hammad-saeed-666252244"
             target="_blank"
@@ -48,14 +133,14 @@ const Hero = () => {
           </a>
         </div>
 
-       {/* down buttom */}
+       {/* down button */}
         <div className="mt-10 flex justify-center">
           <button
             onClick={scrollToAbout}
             className="w-14 h-14 flex items-center justify-center border-2 border-yellow-400 
                        text-yellow-400 text-3xl font-extrabold rounded-full shadow-lg 
                        transition-all duration-300 ease-in-out 
-                       hover:bg-yellow-400 hover:text-black  animate-bounce cursor-pointer"
+                       hover:bg-yellow-400 hover:text-black animate-bounce cursor-pointer"
           >
             <MdKeyboardDoubleArrowDown />
           </button>
