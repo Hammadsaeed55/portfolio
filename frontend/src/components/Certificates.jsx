@@ -3,7 +3,7 @@ export default function Certificates() {
     {
       title: "Web Development Certificate",
       issuer: "The Website Maker",
-      image: "/src/assets/web Development certificate_page-0001.jpg",
+      image: "https://res.cloudinary.com/do0ef0qe2/image/upload/v1779182398/web_Development_certificate_page-0001_qepovj.jpg",
       link: "https://github.com/Hammadsaeed55/certificates/blob/main/web%20Development%20certificate.pdf",
     },
     {
