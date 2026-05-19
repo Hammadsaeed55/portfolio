@@ -10,7 +10,7 @@ export default function Certificates() {
       title: "Python Training Certificate",
       issuer: "Teerthanker Mahaveer University",
       image:
-        "/src/assets/WhatsApp Image 2026-05-11 at 5.12.06 AM.jpeg",
+        "https://res.cloudinary.com/do0ef0qe2/image/upload/v1779182375/WhatsApp_Image_2026-05-11_at_5.12.06_AM_wldb0a.jpg",
       link: "https://github.com/Hammadsaeed55/certificates/blob/main/python%20certificate.pdf",
     },
     {
