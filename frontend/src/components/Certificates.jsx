@@ -17,7 +17,7 @@ export default function Certificates() {
       title: " Workshop Completion Certificate",
       issuer: "SOFTPRO INDIA",
       image:
-        "/src/assets/Hammad saeed _certificate (1)_page-0001.jpg",
+        "https://res.cloudinary.com/do0ef0qe2/image/upload/v1779181669/Hammad_saeed__certificate_1__page-0001_mch3gg.jpg",
       link: "https://github.com/Hammadsaeed55/certificates/blob/main/Hammad%20saeed%20_certificate%20(1).pdf",
     },
   ];
