@@ -32,7 +32,7 @@ const otherSkills = [
   { logo: postmanLogo, name: "Postman" },
   { logo: vscodeLogo, name: "VS Code" },
   { logo: canvaLogo, name: "Canva" },
-  { logo:  ,  name: "Cloudinary" },
+  { logo:  "https://media.glassdoor.com/sqll/1317955/cloudinary-squareLogo-1693725900782.png",  name: "Cloudinary" },
 ];
 
 const Skills = () => {
